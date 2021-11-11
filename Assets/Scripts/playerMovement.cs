@@ -18,6 +18,5 @@ public class playerMovement : MonoBehaviour
 
         transform.Translate(Vector3.forward * Time.deltaTime * _playerSpeed * forwardInput);
         transform.Translate(Vector3.right * Time.deltaTime * _playerSpeed * horizontalInput);
-
     }
 }
