@@ -13,6 +13,11 @@ public class playerMovement : MonoBehaviour
 
     private Camera mainCamera;
 
+    private void Awake()
+    {
+        Application.targetFrameRate = 240;
+    }
+
     private void Start()
     {
         rigidbody = GetComponent<Rigidbody>();
