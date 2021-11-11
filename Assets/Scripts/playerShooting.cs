@@ -4,18 +4,28 @@ using UnityEngine;
 
 public class playerShooting : MonoBehaviour
 {
-    public GameObject bullet_spawn_point;
+    public GameObject bulletSpawnPoint;
     public GameObject bullet;
+    float fireElapsedTime = 0f;
+    public float fireDelay = 0.5f;
 
     // Update is called once per frame
     void Update()
     {
+        
         float shotInput = Input.GetAxis("Fire1");
 
-        if (shotInput == 1)
+        if (shotInput == 1 && fireElapsedTime >= fireDelay)
         {
-            Instantiate(bullet, bullet_spawn_point.transform.position, Quaternion.identity);
+            fireElapsedTime = 0;
+            Shoot();
         }
 
+        fireElapsedTime += Time.deltaTime;
+    }
+
+    void Shoot()
+    {
+        Instantiate(bullet, bulletSpawnPoint.transform.position, Quaternion.identity);
     }
 }
