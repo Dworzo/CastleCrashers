@@ -26,6 +26,6 @@ public class playerShooting : MonoBehaviour
 
     void Shoot()
     {
-        Instantiate(bullet, bulletSpawnPoint.transform.position, Quaternion.identity);
+        Instantiate(bullet, bulletSpawnPoint.transform.position, gameObject.transform.rotation);
     }
 }

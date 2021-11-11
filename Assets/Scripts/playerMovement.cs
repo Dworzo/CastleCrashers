@@ -28,6 +28,7 @@ public class playerMovement : MonoBehaviour
         moveInput = new Vector3(Input.GetAxisRaw("Horizontal"), 0f, Input.GetAxisRaw("Vertical"));
         moveVelocity = moveInput * movementSpeed;
 
+        //Player rotation
         Ray cameraRay = mainCamera.ScreenPointToRay(Input.mousePosition);
         Plane groundPlane = new Plane(Vector3.up, Vector3.zero);
         float rayLength;
@@ -38,8 +39,7 @@ public class playerMovement : MonoBehaviour
             transform.LookAt(new Vector3(pointToLook.x, transform.position.y, pointToLook.z));
         }
 
-        
-        //Player facing mouse
+       
         
         
     }
