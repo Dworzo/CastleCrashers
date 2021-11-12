@@ -26,7 +26,7 @@ public class enemyAttack : MonoBehaviour
     }
 
         //enemy attack
-    private void onCollisionStay(Collision other)
+    private void OnCollisionStay(Collision other)
     {
         if (other.gameObject.tag == "Player")
         {
@@ -57,4 +57,6 @@ public class enemyAttack : MonoBehaviour
             target = null;
         }
     }
+
+    
 }
