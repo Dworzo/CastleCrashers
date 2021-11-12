@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class enemyHealth : MonoBehaviour
+public class enemyHP : MonoBehaviour
 {
  
-    public int maxHealth = 1;
+    public int maxHealth = 3;
     private int currentHealth;
 
     private void Start()

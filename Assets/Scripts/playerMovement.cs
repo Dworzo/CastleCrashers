@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class playerMovement : MonoBehaviour
 {
-
     public float movementSpeed = 7.0f;
     private Rigidbody rigidbody;
 
@@ -24,10 +23,8 @@ public class playerMovement : MonoBehaviour
         mainCamera = FindObjectOfType<Camera>();
     }
 
-
     // Update is called once per frame
     void Update() {
-
 
         //Player movement
         moveInput = new Vector3(Input.GetAxisRaw("Horizontal"), 0f, Input.GetAxisRaw("Vertical"));
@@ -43,12 +40,7 @@ public class playerMovement : MonoBehaviour
             Vector3 pointToLook = cameraRay.GetPoint(rayLength);
             transform.LookAt(new Vector3(pointToLook.x, transform.position.y, pointToLook.z));
         }
-
-       
-        
-        
     }
-
 
     private void FixedUpdate()
     {

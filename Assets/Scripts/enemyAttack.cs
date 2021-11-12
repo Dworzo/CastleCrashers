@@ -2,26 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class enemyMoveAttack : MonoBehaviour
+public class enemyAttack : MonoBehaviour
 {
-
-    [SerializeField] private float enemyAttackDamage = 10f;
+    [SerializeField] private int enemyAttackDamage = 10;
     [SerializeField] private float enemyAttackSpeed = 1f;
-
-    public GameObject player;
 
     public float speed = 5f;
 
-    private float rotationSpeed = 10.0f;
     private float canAttack;
     private Transform target;
 
     void Update()
     {
-        //running towards player    
-        Quaternion targetRotation = Quaternion.LookRotation(player.transform.position - transform.position);
-        transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
-        transform.position += transform.forward * 5f * Time.deltaTime;
+
 
         if (target != null)
         {
@@ -39,7 +32,7 @@ public class enemyMoveAttack : MonoBehaviour
         {
             if (enemyAttackSpeed <= canAttack)
             {
-                other.gameObject.GetComponent<playerHP>().updatePlayerHealth(-enemyAttackDamage);
+                other.gameObject.GetComponent<playerHP>().updatePlayerHealth(enemyAttackDamage);
                 canAttack = 0f;
             }
             else

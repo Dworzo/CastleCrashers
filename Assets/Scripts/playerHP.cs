@@ -12,10 +12,9 @@ public class playerHP : MonoBehaviour
         playerHealth = maxHealth;
     }
 
-
-    public void updatePlayerHealth(float mod)
+    public void updatePlayerHealth(int damage)
     {
-        playerHealth += mod;
+        playerHealth -= damage;
 
         if (playerHealth > maxHealth)
         {
@@ -24,7 +23,7 @@ public class playerHP : MonoBehaviour
         else if (playerHealth <= 0f)
         {
             playerHealth = 0f;
-            Debug.Log("Player Respawn");
+            Debug.Log("Player Died");
         }
     }
 }

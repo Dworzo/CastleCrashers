@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class bulletMovement : MonoBehaviour
 {
-    public float bullet_speed = 25f;
-    public int bullet_damage = 1;
+    public float bullet_speed = 35f;
+    public int bulletDamage = 1;
 
 
     // Update is called once per frame
@@ -16,9 +16,9 @@ public class bulletMovement : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.GetComponent<enemyHealth>() != null)
+        if (other.GetComponent<enemyHP>() != null)
             {
-            other.GetComponent<enemyHealth>().dealDamage(bullet_damage);
+            other.GetComponent<enemyHP>().dealDamage(bulletDamage);
         }
         Destroy(gameObject);
     }
