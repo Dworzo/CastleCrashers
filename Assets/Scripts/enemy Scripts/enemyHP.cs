@@ -18,7 +18,13 @@ public class enemyHP : MonoBehaviour
         currentHealth -= damage;
         if (currentHealth <= 0)
         {
-            Destroy(gameObject);
+            enemyDied();
         }
+    }
+
+    public void enemyDied()
+    {
+        gameObject.GetComponent<enemyLoot>().givePlayerGold();
+        Destroy(gameObject);
     }
 }
