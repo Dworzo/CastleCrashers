@@ -16,9 +16,9 @@ public class bulletMovement : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.GetComponent<enemyHP>() != null)
+        if (other.GetComponent<enemyAttack>() != null)
             {
-            other.GetComponent<enemyHP>().dealDamage(bulletDamage);
+            other.GetComponent<enemyAttack>().dealDamage(bulletDamage);
         }
         Destroy(gameObject);
     }
