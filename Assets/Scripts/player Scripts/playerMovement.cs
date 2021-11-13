@@ -5,7 +5,7 @@ using UnityEngine;
 public class playerMovement : MonoBehaviour
 {
     public float movementSpeed = 7.0f;
-    private Rigidbody rigidbody;
+    private Rigidbody rb;
 
     private Vector3 moveInput;
     private Vector3 moveVelocity;
@@ -19,7 +19,7 @@ public class playerMovement : MonoBehaviour
 
     private void Start()
     {
-        rigidbody = GetComponent<Rigidbody>();
+        rb = GetComponent<Rigidbody>();
         mainCamera = FindObjectOfType<Camera>();
     }
 
@@ -44,6 +44,6 @@ public class playerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rigidbody.velocity = moveVelocity;
+        rb.velocity = moveVelocity;
     }
 }
