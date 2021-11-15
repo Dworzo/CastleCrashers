@@ -108,7 +108,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6023cb7e8a1f9a4b8c1b6c1ae43b123, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet_speed: 25
-  bullet_damage: 1
-  mainCamera: {fileID: 0}
-  pointToLook: {x: 0, y: 0, z: 0}
+  bulletSpeed: 40
+  bulletDamage: 1
