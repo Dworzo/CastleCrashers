@@ -47,6 +47,10 @@ public class enemyAttack : MonoBehaviour
                 other.gameObject.GetComponent<playerHP>().updatePlayerHealth(enemyAttackDamage);
                 canAttack = 0f;
             }
+            else
+            {
+                canAttack += Time.deltaTime;
+            }
         }
     }
 }
