@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8563756831843958046}
   - component: {fileID: 8563756831843958045}
   - component: {fileID: 8563756831843958040}
-  - component: {fileID: 1854152588029976587}
+  - component: {fileID: -8747222193750303862}
   m_Layer: 0
   m_Name: Erika_Archer_Arrow_Mesh (1)
   m_TagString: Untagged
@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 8563756831843958044}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 6, y: 6, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -97,8 +97,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 40
   bulletDamage: 1
---- !u!64 &1854152588029976587
-MeshCollider:
+--- !u!65 &-8747222193750303862
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -107,7 +107,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -173100611939123233, guid: 2c5ffa34eb49f2a489df5f8f8dcce95d, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.04613344, y: 0.039952736, z: 0.7504024}
+  m_Center: {x: 0, y: 0.0066587874, z: 0.06959218}

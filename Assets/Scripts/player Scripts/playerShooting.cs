@@ -7,7 +7,7 @@ public class playerShooting : MonoBehaviour
     public GameObject bulletSpawnPoint;
     public GameObject bullet;
     float fireElapsedTime = 0f;
-    public float fireDelay = 0.5f;
+    public float fireDelay = 0.15f;
 
     void Shoot()
     {

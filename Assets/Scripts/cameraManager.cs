@@ -15,7 +15,7 @@ public class cameraManager : MonoBehaviour
     {
  
     }
-    void FixedUpdate()
+    void LateUpdate()
     {
         offset.Set(offset_x, offset_y, offset_z);
         transform.position = Vector3.Lerp(transform.position, player.transform.position + offset, Time.deltaTime * cameraSpeed);
