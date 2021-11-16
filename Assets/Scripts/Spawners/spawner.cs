@@ -5,7 +5,7 @@ using UnityEngine;
 public class spawner : MonoBehaviour
 {
     [SerializeField] private GameObject enemyPrefab;
-    [SerializeField] private float waveStartTime = 10f;
+    [SerializeField] private float waveStartTime = 0f;
     [SerializeField] private float gameTime = 0f;
     [SerializeField] private float enemySpawnDelay = 0.5f;
 
@@ -20,7 +20,7 @@ public class spawner : MonoBehaviour
         {
             if (timeElapsed >= enemySpawnDelay)
             {
-                GameObject newEnemy = Instantiate(enemyPrefab, new Vector3(Random.Range(-5f, 5f), Random.Range(1f, 1f), 1), Quaternion.identity);
+                GameObject newEnemy = Instantiate(enemyPrefab, new Vector3(Random.Range(-5f, 5f), Random.Range(1.4f, 1.4f), 1.4f), Quaternion.identity);
                 timeElapsed = 0f;
                 OutputTime();
             }
