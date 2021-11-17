@@ -62,13 +62,13 @@ Material:
     - _FoamSpecular: 0.3
     - _Foamfalloff: -4
     - _MaskClipValue: 0.5
-    - _NormalScale: 0
+    - _NormalScale: 10.7
     - _ShoreDepth: -6.35
     - _ShoreFalloff: -10
     - _Smoothness: 0.9
     - _Specular: 0.1
     - _TessValue: 6
-    - _WaterDepth: 0.99
+    - _WaterDepth: 2.45
     - _WaterFalloff: -10
     - _WaterSmoothness: 0.3
     - _WaterSpecular: 0.3
@@ -79,6 +79,7 @@ Material:
     - _Color: {r: 0.4292453, g: 0.7559531, b: 1, a: 1}
     - _Color0: {r: 0, g: 0.6749488, b: 0.8088235, a: 0}
     - _Color1: {r: 0, g: 0.048731543, b: 0.22794023, a: 0}
-    - _DeepColor: {r: 0.2511125, g: 0.7187613, b: 0.9339623, a: 1}
-    - _ShalowColor: {r: 1, g: 1, b: 1, a: 1}
+    - _DeepColor: {r: 0.22352943, g: 0.5568628, b: 0.9215687, a: 1}
+    - _ShalowColor: {r: 0.17254902, g: 0.3372549, b: 0.8705883, a: 1}
     - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
