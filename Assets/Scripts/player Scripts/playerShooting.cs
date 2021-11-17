@@ -25,7 +25,6 @@ public class playerShooting : MonoBehaviour
             fireElapsedTime = 0;
             Shoot();
         }
-
         fireElapsedTime += Time.deltaTime;
     }
 
