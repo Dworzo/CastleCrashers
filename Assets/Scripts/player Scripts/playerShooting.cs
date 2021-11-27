@@ -9,7 +9,7 @@ public class playerShooting : MonoBehaviour
     float fireElapsedTime = 0f;
     public float fireDelay = 0.5f;
 
-    void Shoot()
+    public void Shoot()
     {
         Instantiate(bullet, bulletSpawnPoint.transform.position, gameObject.transform.rotation);
     }

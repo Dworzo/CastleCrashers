@@ -37,7 +37,7 @@ public class enemyAttack : MonoBehaviour
         Destroy(gameObject);
     }
 
-    //enemy attack
+    //enemy attack on collision
     private void OnCollisionStay(Collision other)
     {
         if (other.gameObject.tag == "Player")

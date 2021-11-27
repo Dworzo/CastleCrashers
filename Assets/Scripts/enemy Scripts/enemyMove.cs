@@ -11,7 +11,6 @@ public class enemyMove : MonoBehaviour
     void Update()
     {
         //running towards player
-
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
         Quaternion targetRotation = Quaternion.LookRotation(player.transform.position - transform.position);
         transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
