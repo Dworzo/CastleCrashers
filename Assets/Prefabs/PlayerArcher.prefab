@@ -688,6 +688,7 @@ GameObject:
   - component: {fileID: 2805356796255909190}
   - component: {fileID: 2805356796255909188}
   - component: {fileID: 2805356796255909187}
+  - component: {fileID: 8085763856055617754}
   m_Layer: 0
   m_Name: PlayerArcher
   m_TagString: Player
@@ -825,6 +826,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &8085763856055617754
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2805356796255909186}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 0
+  m_Extents: {x: 0.7, y: 1, z: 0.7}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &2876039159580585491
 GameObject:
   m_ObjectHideFlags: 0
