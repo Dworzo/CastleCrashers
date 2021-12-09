@@ -104,7 +104,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.5
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -157,13 +157,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 5
-  speed: 0
-  stoppingDistance: 0
-  retreatDistance: 0
-  startTimeBtwShots: 0
-  attackRange: 8
-  bulletSpawnPoint: {fileID: 0}
-  bullet: {fileID: 0}
+  speed: 5
+  stoppingDistance: 15
+  retreatDistance: 5
+  startTimeBtwShots: 0.9
+  attackRange: 15
+  bulletSpawnPoint: {fileID: 1082566534936196353}
+  bullet: {fileID: 3372754212855739619, guid: 049105e2b09dcfb4ba44b27987a00069, type: 3}
   agent: {fileID: 5645804587224822481}
 --- !u!1 &6269295392509145944
 GameObject:

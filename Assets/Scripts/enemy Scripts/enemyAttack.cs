@@ -9,7 +9,6 @@ public class enemyAttack : MonoBehaviour
     [SerializeField] public int maxHealth = 5;
 
     private int currentHealth;
-    public float speed = 5f;
     private float canAttack;
 
     void Update()
