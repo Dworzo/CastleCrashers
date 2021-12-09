@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class rangeEnemy : MonoBehaviour
 {
@@ -11,48 +12,53 @@ public class rangeEnemy : MonoBehaviour
     public float stoppingDistance;
     public float retreatDistance;
     public float startTimeBtwShots;
+    public float attackRange;
 
     public GameObject bulletSpawnPoint;
     public GameObject bullet;
-    public Transform player;
+    private Transform player;
 
     private float canAttack;
     private float timeBtwShots;
     private float rotationSpeed = 10f;
+    private float distance;
 
+    public NavMeshAgent agent;
 
     // Start is called before the first frame update
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player").transform;
+        //player = GameObject.FindGameObjectWithTag("Player").transform;
         currentHealth = maxHealth;
         timeBtwShots = startTimeBtwShots;
+        agent.stoppingDistance = attackRange;
     }
 
     // Update is called once per frame
     void Update()
     {
-        canAttack += Time.deltaTime;
+        //canAttack += Time.deltaTime;
 
         //running towards player
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+        agent.SetDestination(player.transform.position);
+
         Quaternion targetRotation = Quaternion.LookRotation(player.transform.position - transform.position);
         transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
-        transform.position += transform.forward * 5f * Time.deltaTime;
+        //transform.position += transform.forward * 5f * Time.deltaTime;
 
-
-        if (Vector3.Distance(transform.position, player.position) > stoppingDistance)
-        {
-            transform.position = Vector3.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
-        }
-        else if (Vector3.Distance(transform.position, player.position) < stoppingDistance && Vector3.Distance(transform.position, player.position) > retreatDistance)
-        {
-            transform.position = this.transform.position;
-        }
-        else if (Vector3.Distance(transform.position, player.position) < retreatDistance)
-        {
-            transform.position = Vector3.MoveTowards(transform.position, player.position, -speed * Time.deltaTime);
-        }
+        //if (Vector3.Distance(transform.position, player.position) > stoppingDistance)
+        //{
+        //    transform.position = Vector3.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
+        //}
+        //else if (Vector3.Distance(transform.position, player.position) < stoppingDistance && Vector3.Distance(transform.position, player.position) > retreatDistance)
+        //{
+        //    transform.position = this.transform.position;
+        //}
+        //else if (Vector3.Distance(transform.position, player.position) < retreatDistance)
+        //{
+        //    transform.position = Vector3.MoveTowards(transform.position, player.position, -speed * Time.deltaTime);
+        //}
 
         if (timeBtwShots < canAttack)
         {
