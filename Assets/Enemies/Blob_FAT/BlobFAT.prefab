@@ -142,7 +142,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2675d26c83ed68f4288e53341c9b82b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goldAmount: 20
+  goldAmount: 50
   player: {fileID: 0}
 --- !u!114 &8702956907540420576
 MonoBehaviour:

@@ -9,9 +9,24 @@ EditorBuildSettings:
     path: Assets/Scenes/startMenu.unity
     guid: bf72e975cc6e583439486a536e44d036
   - enabled: 1
+    path: Assets/Scenes/Game Over.unity
+    guid: f025f479b691a934ab78f1ce4a439f9b
+  - enabled: 0
     path: Assets/Scenes/tuvalu_test.unity
     guid: f3add5857f7eeae4f9397ccfccbd474c
   - enabled: 1
-    path: Assets/Scenes/Game Over.unity
-    guid: f025f479b691a934ab78f1ce4a439f9b
+    path: Assets/Scenes/Sequence_1/Level_1.unity
+    guid: 8125084cd35fc5d4abe4b4996b7a4cf5
+  - enabled: 1
+    path: Assets/Scenes/Sequence_1/Level_2.unity
+    guid: 3eb0d99b8e0cab7468d2c84fab03eab3
+  - enabled: 1
+    path: Assets/Scenes/Sequence_1/Level_3.unity
+    guid: 22b522368b81e744998f3835c5681f41
+  - enabled: 1
+    path: Assets/Scenes/Sequence_1/Level_4.unity
+    guid: d1c405f890bc3534ab783ece0cdbd554
+  - enabled: 1
+    path: Assets/Scenes/Sequence_1/Level_5.unity
+    guid: 679ba8c312637854c8d8d683d062e2a4
   m_configObjects: {}

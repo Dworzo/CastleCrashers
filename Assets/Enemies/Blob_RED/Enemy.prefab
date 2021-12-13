@@ -157,7 +157,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyAttackDamage: 5
   enemyAttackSpeed: 0.5
-  maxHealth: 4
+  maxHealth: 5
 --- !u!114 &8318208957839504135
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -170,7 +170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2675d26c83ed68f4288e53341c9b82b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goldAmount: 10
+  goldAmount: 20
   player: {fileID: 0}
 --- !u!1001 &224853065682867401
 PrefabInstance:
