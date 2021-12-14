@@ -1739,6 +1739,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8702956907540420576, guid: 7437d088c918ee24e8d7e2dd0d30bca6, type: 3}
+      propertyPath: agent
+      value: 
+      objectReference: {fileID: 2071286836}
+    - target: {fileID: 8702956907540420576, guid: 7437d088c918ee24e8d7e2dd0d30bca6, type: 3}
       propertyPath: speed
       value: 0
       objectReference: {fileID: 0}
@@ -2119,6 +2123,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d623288faa4077b45ab9cb0ba3671470, type: 3}
+--- !u!195 &2071286836 stripped
+NavMeshAgent:
+  m_CorrespondingSourceObject: {fileID: 5645804587224822481, guid: 7437d088c918ee24e8d7e2dd0d30bca6, type: 3}
+  m_PrefabInstance: {fileID: 1851494189}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2115858284
 GameObject:
   m_ObjectHideFlags: 0
