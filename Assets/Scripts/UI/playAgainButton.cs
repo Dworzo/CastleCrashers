@@ -7,6 +7,6 @@ public class playAgainButton : MonoBehaviour
 {
     public void playAgain()
     {
-        SceneManager.LoadScene("startMenu");
+        SceneManager.LoadScene(0);
     }
 }

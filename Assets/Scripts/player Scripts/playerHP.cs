@@ -31,6 +31,7 @@ public class playerHP : MonoBehaviour
     {
         playerHealth = 0f;
         Debug.Log("Player Died");
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(1);
+       // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
