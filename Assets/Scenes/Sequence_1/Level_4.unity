@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -179,7 +179,7 @@ GameObject:
   - component: {fileID: 124771858}
   m_Layer: 0
   m_Name: Wall (6)
-  m_TagString: Untagged
+  m_TagString: Enviro
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -460,7 +460,7 @@ GameObject:
   - component: {fileID: 198758039}
   m_Layer: 0
   m_Name: Wall (12)
-  m_TagString: Untagged
+  m_TagString: Enviro
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -656,7 +656,7 @@ GameObject:
   - component: {fileID: 318580042}
   m_Layer: 0
   m_Name: Wall (9)
-  m_TagString: Untagged
+  m_TagString: Enviro
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -751,7 +751,7 @@ GameObject:
   - component: {fileID: 353506155}
   m_Layer: 0
   m_Name: Wall (13)
-  m_TagString: Untagged
+  m_TagString: Enviro
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1087,7 +1087,7 @@ GameObject:
   - component: {fileID: 622312277}
   m_Layer: 0
   m_Name: Wall (7)
-  m_TagString: Untagged
+  m_TagString: Enviro
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1239,7 +1239,7 @@ GameObject:
   - component: {fileID: 776140777}
   m_Layer: 0
   m_Name: Wall (14)
-  m_TagString: Untagged
+  m_TagString: Enviro
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1523,7 +1523,7 @@ GameObject:
   - component: {fileID: 1002971600}
   m_Layer: 0
   m_Name: Wall (16)
-  m_TagString: Untagged
+  m_TagString: Enviro
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1802,7 +1802,7 @@ GameObject:
   - component: {fileID: 1362394034}
   m_Layer: 0
   m_Name: Wall (8)
-  m_TagString: Untagged
+  m_TagString: Enviro
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1897,7 +1897,7 @@ GameObject:
   - component: {fileID: 1363432270}
   m_Layer: 0
   m_Name: Wall (2)
-  m_TagString: Untagged
+  m_TagString: Enviro
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2273,15 +2273,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2062390474086733775, guid: 7437d088c918ee24e8d7e2dd0d30bca6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.51
+      value: 4.43
       objectReference: {fileID: 0}
     - target: {fileID: 2062390474086733775, guid: 7437d088c918ee24e8d7e2dd0d30bca6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.8914635
+      value: 0.76
       objectReference: {fileID: 0}
     - target: {fileID: 2062390474086733775, guid: 7437d088c918ee24e8d7e2dd0d30bca6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.18
+      value: -3.73
       objectReference: {fileID: 0}
     - target: {fileID: 2062390474086733775, guid: 7437d088c918ee24e8d7e2dd0d30bca6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2327,7 +2327,7 @@ GameObject:
   - component: {fileID: 1680913452}
   m_Layer: 0
   m_Name: Wall (15)
-  m_TagString: Untagged
+  m_TagString: Enviro
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2571,7 +2571,7 @@ GameObject:
   - component: {fileID: 1762657110}
   m_Layer: 0
   m_Name: Wall (11)
-  m_TagString: Untagged
+  m_TagString: Enviro
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2666,7 +2666,7 @@ GameObject:
   - component: {fileID: 1903104626}
   m_Layer: 0
   m_Name: Wall (10)
-  m_TagString: Untagged
+  m_TagString: Enviro
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2801,15 +2801,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2062390474086733775, guid: 7437d088c918ee24e8d7e2dd0d30bca6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.26
+      value: -4.03
       objectReference: {fileID: 0}
     - target: {fileID: 2062390474086733775, guid: 7437d088c918ee24e8d7e2dd0d30bca6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.8914616
+      value: 0.88
       objectReference: {fileID: 0}
     - target: {fileID: 2062390474086733775, guid: 7437d088c918ee24e8d7e2dd0d30bca6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.51
+      value: 4.26
       objectReference: {fileID: 0}
     - target: {fileID: 2062390474086733775, guid: 7437d088c918ee24e8d7e2dd0d30bca6, type: 3}
       propertyPath: m_LocalRotation.w

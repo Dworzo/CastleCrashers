@@ -286,7 +286,7 @@ GameObject:
   - component: {fileID: 78109246}
   m_Layer: 0
   m_Name: Wall
-  m_TagString: Untagged
+  m_TagString: Enviro
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -474,7 +474,7 @@ GameObject:
   - component: {fileID: 202575479}
   m_Layer: 0
   m_Name: Wall (1)
-  m_TagString: Untagged
+  m_TagString: Enviro
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -569,7 +569,7 @@ GameObject:
   - component: {fileID: 372278279}
   m_Layer: 0
   m_Name: Wall (8)
-  m_TagString: Untagged
+  m_TagString: Enviro
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -745,7 +745,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 426065951}
   m_LocalRotation: {x: 0, y: 0.38268343, z: 0, w: 0.92387956}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.46, z: 0}
   m_LocalScale: {x: 3, y: 1, z: 3}
   m_Children: []
   m_Father: {fileID: 0}
@@ -891,7 +891,7 @@ GameObject:
   - component: {fileID: 582579595}
   m_Layer: 0
   m_Name: Wall (6)
-  m_TagString: Untagged
+  m_TagString: Enviro
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1061,7 +1061,7 @@ GameObject:
   - component: {fileID: 750067754}
   m_Layer: 0
   m_Name: Wall (5)
-  m_TagString: Untagged
+  m_TagString: Enviro
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1163,7 +1163,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2062390474086733775, guid: 6dada14e28cdf6d4caeec8602d079257, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.9457308
+      value: 0.08
       objectReference: {fileID: 0}
     - target: {fileID: 2062390474086733775, guid: 6dada14e28cdf6d4caeec8602d079257, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1728,7 +1728,7 @@ GameObject:
   - component: {fileID: 1812249875}
   m_Layer: 0
   m_Name: Wall (4)
-  m_TagString: Untagged
+  m_TagString: Enviro
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1830,7 +1830,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2062390474086733775, guid: 6dada14e28cdf6d4caeec8602d079257, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.9457321
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: 2062390474086733775, guid: 6dada14e28cdf6d4caeec8602d079257, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1883,7 +1883,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 953288574687181775, guid: d7f9b3eed434ce44a8d2f7c8142d6d8d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.25
+      value: 0.47
       objectReference: {fileID: 0}
     - target: {fileID: 953288574687181775, guid: d7f9b3eed434ce44a8d2f7c8142d6d8d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1948,7 +1948,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3289159932191961080, guid: d623288faa4077b45ab9cb0ba3671470, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.0000009536743
+      value: -0.21
       objectReference: {fileID: 0}
     - target: {fileID: 3289159932191961080, guid: d623288faa4077b45ab9cb0ba3671470, type: 3}
       propertyPath: m_LocalPosition.z

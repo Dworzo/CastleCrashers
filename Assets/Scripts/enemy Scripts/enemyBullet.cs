@@ -14,13 +14,18 @@ public class enemyBullet : MonoBehaviour
         gameObject.transform.Translate(Time.deltaTime * Vector3.forward * bulletSpeed);
     }
 
-    private void OnCollisionStay(Collision other)
+    private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Player")
+        if (other.tag == "Player")
         {
             other.gameObject.GetComponent<playerHP>().updatePlayerHealth(bulletDamage);
+            Destroy(gameObject);
         }
-        Destroy(gameObject);
+        if (other.tag == "Enviro")
+        {
+            
+            Destroy(gameObject);
+        }
     }
 }
 
