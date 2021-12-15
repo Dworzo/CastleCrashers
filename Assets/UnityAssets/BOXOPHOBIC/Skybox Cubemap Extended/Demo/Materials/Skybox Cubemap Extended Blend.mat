@@ -83,15 +83,15 @@ Material:
     - _Advancedd: 1
     - _BumpScale: 1
     - _CUBEMAPP: 1
-    - _CubemapPosition: -0.46
-    - _CubemapTransition: 0.952
+    - _CubemapPosition: 0
+    - _CubemapTransition: 1
     - _Cubemapp: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _EnableFog: 0
     - _EnableRotation: 1
-    - _Exposure: 1.34
+    - _Exposure: 0.95
     - _Float0: -0.21
     - _FogFill: 0
     - _FogHeight: 1
@@ -109,8 +109,8 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _Rotation: 23
-    - _RotationSpeed: 3
+    - _Rotation: 0
+    - _RotationSpeed: 2
     - _Rotationn: 1
     - _SkyboxExtended: 1
     - _SmoothnessTextureChannel: 0
