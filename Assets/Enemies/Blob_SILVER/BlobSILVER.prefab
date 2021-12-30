@@ -14,9 +14,9 @@ GameObject:
   - component: {fileID: 5214084791087448760}
   - component: {fileID: 5645804587224822481}
   - component: {fileID: 2268122959656310622}
-  - component: {fileID: 8702956907540420576}
+  - component: {fileID: 586187511390882707}
   m_Layer: 7
-  m_Name: BlobFAT
+  m_Name: BlobSILVER
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 1082566534936196353}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 9.385713, y: 1.9457327, z: 0.78}
-  m_LocalScale: {x: 2, y: 3.5, z: 2}
+  m_LocalScale: {x: 1, y: 1.75, z: 1}
   m_Children:
   - {fileID: 2377948295826259250}
   - {fileID: 8959493094148846785}
@@ -57,7 +57,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 38d3abe8c0cbf044e8c75f1a916b6172, type: 2}
+  - {fileID: 2100000, guid: 6a7053c3342b4ac448a07f980fd91082, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -118,8 +118,8 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: -334000983
   m_Radius: 0.5
-  m_Speed: 5
-  m_Acceleration: 8
+  m_Speed: 3
+  m_Acceleration: 5
   avoidancePriority: 50
   m_AngularSpeed: 200
   m_StoppingDistance: 0
@@ -142,9 +142,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2675d26c83ed68f4288e53341c9b82b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goldAmount: 50
+  goldAmount: 20
   player: {fileID: 0}
---- !u!114 &8702956907540420576
+--- !u!114 &586187511390882707
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -153,19 +153,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1082566534936196353}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 380ba6e8d97546b4ebe8550cada358d2, type: 3}
+  m_Script: {fileID: 11500000, guid: d4c04386f61665247b9e15710fa106e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
-  speed: 1
-  stoppingDistance: 20
-  retreatDistance: 0
-  startTimeBtwShots: 0.25
-  attackRange: 20
-  bulletSpawnPoint: {fileID: 1082566534936196353}
-  bullet: {fileID: 3372754212855739619, guid: 2d2b0c0dd8cf5b74c941454ad30190cf, type: 3}
-  agent: {fileID: 0}
-  bulletDeviation: 15
+  maxHealth: 5
+  speed: 3
+  stoppingDistance: 15
+  retreatDistance: 5
+  startTimeBtwShots: 1.5
+  attackRange: 15
+  bulletSpawnPoint: {fileID: 6269295392509145944}
+  bullet: {fileID: 3372754212855739619, guid: d64c084ae315d28408fc8dae61e98c69, type: 3}
+  agent: {fileID: 5645804587224822481}
 --- !u!1 &6269295392509145944
 GameObject:
   m_ObjectHideFlags: 0
@@ -206,7 +205,7 @@ PrefabInstance:
     - target: {fileID: 486341288302365253, guid: 83c98e3e7bfeed54bb2bc8371a576c50, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 08c42f08658cf354fbbd85b704ea1a4f, type: 2}
+      objectReference: {fileID: 2100000, guid: 6a7053c3342b4ac448a07f980fd91082, type: 2}
     - target: {fileID: 4998122891785606936, guid: 83c98e3e7bfeed54bb2bc8371a576c50, type: 3}
       propertyPath: m_Name
       value: blob1 Variant
