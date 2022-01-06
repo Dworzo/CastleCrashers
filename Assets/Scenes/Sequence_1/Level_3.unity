@@ -214,6 +214,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5527752169711537425, guid: 6dada14e28cdf6d4caeec8602d079257, type: 3}
+      propertyPath: aimingTime
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5527752169711537425, guid: 6dada14e28cdf6d4caeec8602d079257, type: 3}
+      propertyPath: attackRange
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5527752169711537425, guid: 6dada14e28cdf6d4caeec8602d079257, type: 3}
+      propertyPath: retreatDistance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5527752169711537425, guid: 6dada14e28cdf6d4caeec8602d079257, type: 3}
+      propertyPath: stoppingDistance
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5527752169711537425, guid: 6dada14e28cdf6d4caeec8602d079257, type: 3}
+      propertyPath: startTimeBtwShots
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645804587224822481, guid: 6dada14e28cdf6d4caeec8602d079257, type: 3}
+      propertyPath: m_BaseOffset
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 7613556541613357781, guid: 6dada14e28cdf6d4caeec8602d079257, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -929,6 +953,30 @@ PrefabInstance:
     - target: {fileID: 2062390474086733775, guid: 6dada14e28cdf6d4caeec8602d079257, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5527752169711537425, guid: 6dada14e28cdf6d4caeec8602d079257, type: 3}
+      propertyPath: aimingTime
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5527752169711537425, guid: 6dada14e28cdf6d4caeec8602d079257, type: 3}
+      propertyPath: attackRange
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5527752169711537425, guid: 6dada14e28cdf6d4caeec8602d079257, type: 3}
+      propertyPath: stoppingDistance
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5527752169711537425, guid: 6dada14e28cdf6d4caeec8602d079257, type: 3}
+      propertyPath: startTimeBtwShots
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645804587224822481, guid: 6dada14e28cdf6d4caeec8602d079257, type: 3}
+      propertyPath: m_Radius
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645804587224822481, guid: 6dada14e28cdf6d4caeec8602d079257, type: 3}
+      propertyPath: m_BaseOffset
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7613556541613357781, guid: 6dada14e28cdf6d4caeec8602d079257, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -3067,6 +3115,10 @@ PrefabInstance:
     - target: {fileID: 2062390474086733775, guid: 7437d088c918ee24e8d7e2dd0d30bca6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645804587224822481, guid: 7437d088c918ee24e8d7e2dd0d30bca6, type: 3}
+      propertyPath: m_BaseOffset
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 5645804587224822481, guid: 7437d088c918ee24e8d7e2dd0d30bca6, type: 3}
       propertyPath: m_AgentTypeID
