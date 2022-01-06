@@ -10,7 +10,7 @@ public class spawner : MonoBehaviour
     [SerializeField] private GameObject enemyPrefab;
     [SerializeField] private float waveStartTime = 0f;
     [SerializeField] private float gameTime = 0f;
-    [SerializeField] private float enemySpawnDelay = 0.5f;
+    [SerializeField] private float enemySpawnDelay = 1.5f;
     public int EnemiesToSpawn = 1;
     private int EnemiesSpawned = 0;
 

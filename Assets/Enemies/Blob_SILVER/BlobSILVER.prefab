@@ -156,11 +156,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4c04386f61665247b9e15710fa106e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 5
-  speed: 3
+  maxHealth: 6
+  speed: 2
   stoppingDistance: 15
   retreatDistance: 5
-  startTimeBtwShots: 1.5
+  startTimeBtwShots: 2
   attackRange: 15
   bulletSpawnPoint: {fileID: 6269295392509145944}
   bullet: {fileID: 3372754212855739619, guid: d64c084ae315d28408fc8dae61e98c69, type: 3}
