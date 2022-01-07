@@ -7,7 +7,6 @@ public class rangeEnemy : MonoBehaviour
 {
     [SerializeField] public int maxHealth = 5;
     private int currentHealth;
-
     public float speed;
     public float stoppingDistance;
     public float retreatDistance;
@@ -42,8 +41,6 @@ public class rangeEnemy : MonoBehaviour
         canAttack += Time.deltaTime;
         distance = Vector3.Distance(transform.position, player.position);
 
-        //running towards player
-        //transform.position += transform.forward * 5f * Time.deltaTime;
 
         if (distance > stoppingDistance)
         {
@@ -60,32 +57,6 @@ public class rangeEnemy : MonoBehaviour
                 canAttack = 0f;
             }
         }
-
-        //if (distance > stoppingDistance)
-        //{
-        //    player = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
-        //    agent.SetDestination(player.transform.position);
-        //    //transform.position = Vector3.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
-        //}
-        //else
-        //    if (distance <= stoppingDistance && distance > retreatDistance)
-        //    {
-        //        //transform.position = this.transform.position;
-        //        targetRotation = Quaternion.LookRotation(player.transform.position - transform.position);
-        //        transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
-        //        if (timeBtwShots < canAttack)
-        //            {
-        //                Shoot();
-        //                canAttack = 0f;
-        //            }
-        //    }
-        //    else if (distance <= retreatDistance)
-        //    {
-        //        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
-        //        //retreatPosition = Vector3.MoveTowards(transform.position, player.transform.position, transform.position - player.transform.position);
-        //        agent.SetDestination(transform.position + transform.position - player.transform.position);
-        //        //transform.position = Vector3.MoveTowards(transform.position, player.position, -speed * Time.deltaTime);
-        //    }
     }
 
     public virtual void Shoot()
@@ -102,14 +73,13 @@ public class rangeEnemy : MonoBehaviour
             enemyDied();
         }
     }
-
     public void enemyDied()
     {
         gameObject.GetComponent<enemyLoot>().givePlayerGold();
         Destroy(gameObject);
     }
 
-    
+
 
 
 }
