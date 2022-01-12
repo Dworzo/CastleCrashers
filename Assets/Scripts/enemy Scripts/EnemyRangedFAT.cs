@@ -10,7 +10,7 @@ public class EnemyRangedFAT : rangeEnemy
     {
         float rand = Random.Range(-bulletDeviation, bulletDeviation);
         var _bullet = Instantiate(bullet, bulletSpawnPoint.transform.position, gameObject.transform.rotation);
-        _bullet.transform.Rotate(0, rand, rand);
+        _bullet.transform.Rotate(-4, rand, 0);
         return;
     }
 }

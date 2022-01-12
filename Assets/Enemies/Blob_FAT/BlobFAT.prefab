@@ -160,9 +160,9 @@ MonoBehaviour:
   speed: 1
   stoppingDistance: 20
   retreatDistance: 0
-  startTimeBtwShots: 0.8
-  aimingTime: 0
-  bulletSpawnPoint: {fileID: 1082566534936196353}
+  startTimeBtwShots: 0.3
+  attackRange: 0
+  bulletSpawnPoint: {fileID: 6269295392509145944}
   bullet: {fileID: 3372754212855739619, guid: 2d2b0c0dd8cf5b74c941454ad30190cf, type: 3}
   agent: {fileID: 5645804587224822481}
   bulletDeviation: 15
@@ -190,7 +190,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6269295392509145944}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.12, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2062390474086733775}

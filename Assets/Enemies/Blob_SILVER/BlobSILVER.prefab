@@ -156,7 +156,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4c04386f61665247b9e15710fa106e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 6
+  maxHealth: 3
   speed: 2
   stoppingDistance: 15
   retreatDistance: 5
