@@ -21,7 +21,7 @@ public class enemyBullet : MonoBehaviour
             other.gameObject.GetComponent<playerHP>().updatePlayerHealth(bulletDamage);
             Destroy(gameObject);
         }
-        if (other.tag == "Enviro")
+        if (other.tag == "Enviro" || other.tag == "Projectile")
         {
             
             Destroy(gameObject);

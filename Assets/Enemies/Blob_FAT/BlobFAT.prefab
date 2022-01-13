@@ -30,7 +30,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1082566534936196353}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.385713, y: 1.9457327, z: 0.78}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 2, y: 3.5, z: 2}
   m_Children:
   - {fileID: 2377948295826259250}
@@ -57,7 +57,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 38d3abe8c0cbf044e8c75f1a916b6172, type: 2}
+  - {fileID: 2100000, guid: 08c42f08658cf354fbbd85b704ea1a4f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -90,8 +90,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.6, y: 1, z: 1.8}
-  m_Center: {x: 0, y: 0, z: -0.3}
+  m_Size: {x: 1.6, y: 0.97680557, z: 1.8}
+  m_Center: {x: 0, y: -0.005491734, z: -0.20000005}
 --- !u!54 &5214084791087448760
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -100,7 +100,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1082566534936196353}
   serializedVersion: 2
-  m_Mass: 5
+  m_Mass: 10
   m_Drag: 0
   m_AngularDrag: 0.5
   m_UseGravity: 1
@@ -116,10 +116,10 @@ NavMeshAgent:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1082566534936196353}
   m_Enabled: 1
-  m_AgentTypeID: -334000983
+  m_AgentTypeID: 1479372276
   m_Radius: 0.5
-  m_Speed: 4
-  m_Acceleration: 8
+  m_Speed: 1
+  m_Acceleration: 2
   avoidancePriority: 50
   m_AngularSpeed: 200
   m_StoppingDistance: 1
@@ -127,7 +127,7 @@ NavMeshAgent:
   m_AutoBraking: 1
   m_AutoRepath: 1
   m_Height: 2
-  m_BaseOffset: 0
+  m_BaseOffset: 0.4
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
 --- !u!114 &2268122959656310622
@@ -166,6 +166,7 @@ MonoBehaviour:
   bullet: {fileID: 3372754212855739619, guid: 2d2b0c0dd8cf5b74c941454ad30190cf, type: 3}
   agent: {fileID: 5645804587224822481}
   bulletDeviation: 15
+  bulletElevation: 0
 --- !u!1 &6269295392509145944
 GameObject:
   m_ObjectHideFlags: 0
@@ -190,7 +191,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6269295392509145944}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.12, z: 0}
+  m_LocalPosition: {x: 0, y: -0.301, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2062390474086733775}

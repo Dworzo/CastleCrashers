@@ -25,6 +25,10 @@ public class spawner : MonoBehaviour
         {
             if (timeElapsed >= enemySpawnDelay)
             {
+                //if (Physics.Raycast(gameObject.transform.position, Vector3.down, out RaycastHit hit))
+                //{
+                //    GameObject newEnemy = Instantiate(enemyPrefab, hit.point, Quaternion.identity);
+                //}
                 GameObject newEnemy = Instantiate(enemyPrefab, gameObject.transform.position, Quaternion.identity);
                 timeElapsed = 0f;
                 EnemiesSpawned++;
