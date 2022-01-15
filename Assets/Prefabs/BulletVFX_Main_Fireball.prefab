@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4256682461230121726}
   - component: {fileID: 2587723543449965755}
   m_Layer: 0
-  m_Name: BulletVFX
+  m_Name: BulletVFX_Main_Fireball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
