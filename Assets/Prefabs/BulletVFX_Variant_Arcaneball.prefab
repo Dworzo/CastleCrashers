@@ -58,7 +58,7 @@ PrefabInstance:
     - target: {fileID: 2587723543449965755, guid: 8a257e2b460f4c14cac774f5f7b3bc6b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: d6a1a7e2014d42242857a8502955753e, type: 2}
+      objectReference: {fileID: 2100000, guid: 72292c0f0ca045a47bd9bb1d0b0451b5, type: 2}
     - target: {fileID: 8058613083739073872, guid: 8a257e2b460f4c14cac774f5f7b3bc6b, type: 3}
       propertyPath: ColorModule.gradient.maxGradient.key0.b
       value: 0.5922947
