@@ -1841,15 +1841,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5859892939119075795}
-  - component: {fileID: 6257818657778999246}
-  - component: {fileID: 6257818657778999233}
-  - component: {fileID: 6257818657778999240}
   - component: {fileID: 6257818657778999235}
-  - component: {fileID: 6257818657778999247}
-  - component: {fileID: 6257818657778999244}
-  - component: {fileID: 6257818657778999245}
-  - component: {fileID: 6257818657778999242}
-  - component: {fileID: 6257818657778999243}
   m_Layer: 0
   m_Name: character_rabbit_002
   m_TagString: Untagged
@@ -1876,51 +1868,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -179.967, z: 0}
---- !u!54 &6257818657778999246
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6492314038325967721}
-  serializedVersion: 2
-  m_Mass: 100
-  m_Drag: 0
-  m_AngularDrag: 0.01
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!65 &6257818657778999233
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6492314038325967721}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 2.39, y: 3.27, z: 1.87}
-  m_Center: {x: 0, y: 1.61, z: 0.35}
---- !u!208 &6257818657778999240
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6492314038325967721}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 0.6, y: 1, z: 0.6}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 0, z: 0}
-  m_TimeToStationary: 0.5
 --- !u!95 &6257818657778999235
 Animator:
   serializedVersion: 3
@@ -1940,73 +1887,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &6257818657778999247
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6492314038325967721}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2071ac64a01e474c8ff1ca70153936f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bulletSpawnPoint: {fileID: 6257818657916320362}
-  bullet: {fileID: 7479036237167905850, guid: e640aa35ee42e5d49aba9aa2b12bc16b, type: 3}
-  fireDelay: 0.75
---- !u!114 &6257818657778999244
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6492314038325967721}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8ed0b11850145c4995dd76170bb2500, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &6257818657778999245
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6492314038325967721}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5b4cadc31aa3634794dedaa95ab60d7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movementSpeed: 5.5
---- !u!114 &6257818657778999242
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6492314038325967721}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8949fef1e3c14c94581c6fcb058b6517, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerGold: 0
---- !u!114 &6257818657778999243
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6492314038325967721}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1768071a0bbc54948a58931c186484fa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 100
-  playerHealth: 0
 --- !u!1 &6507118571374915339
 GameObject:
   m_ObjectHideFlags: 0
