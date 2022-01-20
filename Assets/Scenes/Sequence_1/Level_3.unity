@@ -2900,7 +2900,7 @@ MonoBehaviour:
   waveStartTime: 17
   gameTime: 0
   enemySpawnDelay: 0.5
-  EnemiesToSpawn: 2
+  EnemiesToSpawn: 1
 --- !u!1001 &1644899970
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3991,7 +3991,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2805356796255909190, guid: d623288faa4077b45ab9cb0ba3671470, type: 3}
       propertyPath: fireDelay
-      value: 0.75
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 3289159932191961080, guid: d623288faa4077b45ab9cb0ba3671470, type: 3}
       propertyPath: m_RootOrder
@@ -4148,7 +4148,7 @@ MonoBehaviour:
   waveStartTime: 17
   gameTime: 0
   enemySpawnDelay: 0.5
-  EnemiesToSpawn: 2
+  EnemiesToSpawn: 1
 --- !u!1 &2115858284
 GameObject:
   m_ObjectHideFlags: 0
