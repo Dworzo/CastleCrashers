@@ -71,7 +71,7 @@ Material:
     - _MaxAtten: 0.342
     - _MaxLight: 0.895
     - _Metallic: 0
-    - _MinLight: 0.491
+    - _MinLight: 0.248
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Offset: 0.23
@@ -101,7 +101,7 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.36238825, g: 0.19607843, b: 0.9254902, a: 1}
+    - _Color: {r: 0.17926541, g: 0.102483094, b: 0.4433962, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _MaxColor: {r: 0, g: 0.76902664, b: 0.8113208, a: 1}
     - _MinColor: {r: 0, g: 0, b: 0, a: 1}
