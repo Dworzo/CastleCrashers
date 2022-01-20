@@ -3663,9 +3663,23 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerArcher
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 3039869228678695156, guid: d623288faa4077b45ab9cb0ba3671470, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.566
+=======
+    - target: {fileID: 2805356796255909186, guid: d623288faa4077b45ab9cb0ba3671470, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2805356796255909190, guid: d623288faa4077b45ab9cb0ba3671470, type: 3}
+      propertyPath: fireDelay
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2805356796255909191, guid: d623288faa4077b45ab9cb0ba3671470, type: 3}
+      propertyPath: movementSpeed
+      value: 5.5
+>>>>>>> 591cadec2e989e9ed9436046b1dbc21d4f315f9b
       objectReference: {fileID: 0}
     - target: {fileID: 3039869228678695156, guid: d623288faa4077b45ab9cb0ba3671470, type: 3}
       propertyPath: m_LocalPosition.z
