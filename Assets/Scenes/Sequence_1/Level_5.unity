@@ -167,7 +167,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 1082566534936196353, guid: cb8d8d8413bbe7a468bbfa683c811e96, type: 3}
-  waveStartTime: 8
+  waveStartTime: 6
   gameTime: 0
   enemySpawnDelay: 0
   EnemiesToSpawn: 1
@@ -514,14 +514,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerArcher
       objectReference: {fileID: 0}
-    - target: {fileID: 2805356796255909190, guid: d623288faa4077b45ab9cb0ba3671470, type: 3}
-      propertyPath: fireDelay
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2805356796255909191, guid: d623288faa4077b45ab9cb0ba3671470, type: 3}
-      propertyPath: movementSpeed
-      value: 5.5
-      objectReference: {fileID: 0}
     - target: {fileID: 3289159932191961080, guid: d623288faa4077b45ab9cb0ba3671470, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -674,7 +666,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 1082566534936196353, guid: 6dada14e28cdf6d4caeec8602d079257, type: 3}
-  waveStartTime: 35
+  waveStartTime: 24
   gameTime: 0
   enemySpawnDelay: 0
   EnemiesToSpawn: 1
@@ -722,7 +714,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 1082566534936196353, guid: 7437d088c918ee24e8d7e2dd0d30bca6, type: 3}
-  waveStartTime: 56
+  waveStartTime: 32
   gameTime: 0
   enemySpawnDelay: 0.5
   EnemiesToSpawn: 1
@@ -1327,7 +1319,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 7138143484659028312, guid: 3b997c9018450d74fbb4ddc86e3cd64b, type: 3}
-  waveStartTime: 25
+  waveStartTime: 14
   gameTime: 0
   enemySpawnDelay: 0
   EnemiesToSpawn: 2
@@ -1508,7 +1500,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 1082566534936196353, guid: 6dada14e28cdf6d4caeec8602d079257, type: 3}
-  waveStartTime: 35
+  waveStartTime: 24
   gameTime: 0
   enemySpawnDelay: 0
   EnemiesToSpawn: 1
@@ -2274,7 +2266,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 7138143484659028312, guid: 3b997c9018450d74fbb4ddc86e3cd64b, type: 3}
-  waveStartTime: 25
+  waveStartTime: 14
   gameTime: 0
   enemySpawnDelay: 0
   EnemiesToSpawn: 2
@@ -2767,7 +2759,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 1082566534936196353, guid: cb8d8d8413bbe7a468bbfa683c811e96, type: 3}
-  waveStartTime: 35
+  waveStartTime: 28
   gameTime: 0
   enemySpawnDelay: 0
   EnemiesToSpawn: 1
@@ -2923,7 +2915,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 1082566534936196353, guid: cb8d8d8413bbe7a468bbfa683c811e96, type: 3}
-  waveStartTime: 8
+  waveStartTime: 6
   gameTime: 0
   enemySpawnDelay: 0
   EnemiesToSpawn: 1
@@ -3197,7 +3189,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 1082566534936196353, guid: cb8d8d8413bbe7a468bbfa683c811e96, type: 3}
-  waveStartTime: 56
+  waveStartTime: 38
   gameTime: 0
   enemySpawnDelay: 0.5
   EnemiesToSpawn: 1
@@ -3341,7 +3333,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 1082566534936196353, guid: cb8d8d8413bbe7a468bbfa683c811e96, type: 3}
-  waveStartTime: 35
+  waveStartTime: 22
   gameTime: 0
   enemySpawnDelay: 0
   EnemiesToSpawn: 1
@@ -3451,7 +3443,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 1082566534936196353, guid: 6dada14e28cdf6d4caeec8602d079257, type: 3}
-  waveStartTime: 35
+  waveStartTime: 24
   gameTime: 0
   enemySpawnDelay: 0
   EnemiesToSpawn: 1
@@ -3657,7 +3649,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 7138143484659028312, guid: 3b997c9018450d74fbb4ddc86e3cd64b, type: 3}
-  waveStartTime: 56
+  waveStartTime: 34
   gameTime: 0
   enemySpawnDelay: 0.5
   EnemiesToSpawn: 2
@@ -4236,7 +4228,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 7138143484659028312, guid: 3b997c9018450d74fbb4ddc86e3cd64b, type: 3}
-  waveStartTime: 80
+  waveStartTime: 50
   gameTime: 0
   enemySpawnDelay: 0.5
   EnemiesToSpawn: 3
@@ -4572,7 +4564,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 1082566534936196353, guid: cb8d8d8413bbe7a468bbfa683c811e96, type: 3}
-  waveStartTime: 35
+  waveStartTime: 26
   gameTime: 0
   enemySpawnDelay: 0
   EnemiesToSpawn: 1
@@ -4776,7 +4768,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 7138143484659028312, guid: 3b997c9018450d74fbb4ddc86e3cd64b, type: 3}
-  waveStartTime: 56
+  waveStartTime: 34
   gameTime: 0
   enemySpawnDelay: 0.5
   EnemiesToSpawn: 2
@@ -4979,7 +4971,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 7138143484659028312, guid: 3b997c9018450d74fbb4ddc86e3cd64b, type: 3}
-  waveStartTime: 56
+  waveStartTime: 34
   gameTime: 0
   enemySpawnDelay: 0.5
   EnemiesToSpawn: 2
@@ -5008,7 +5000,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1946900103}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.26, y: -9.884658, z: -3.8}
+  m_LocalPosition: {x: 2.28, y: -9.884658, z: -4.33}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 990510368}
@@ -5027,7 +5019,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 1082566534936196353, guid: cb8d8d8413bbe7a468bbfa683c811e96, type: 3}
-  waveStartTime: 56
+  waveStartTime: 42
   gameTime: 0
   enemySpawnDelay: 0.5
   EnemiesToSpawn: 1
@@ -5075,7 +5067,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 1082566534936196353, guid: cb8d8d8413bbe7a468bbfa683c811e96, type: 3}
-  waveStartTime: 81
+  waveStartTime: 56
   gameTime: 0
   enemySpawnDelay: 1
   EnemiesToSpawn: 3

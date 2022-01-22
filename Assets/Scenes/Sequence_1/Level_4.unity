@@ -1026,7 +1026,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &318502277
 Transform:
   m_ObjectHideFlags: 0
@@ -1295,7 +1295,7 @@ MonoBehaviour:
   waveStartTime: 6
   gameTime: 0
   enemySpawnDelay: 0.25
-  EnemiesToSpawn: 3
+  EnemiesToSpawn: 2
 --- !u!1 &436506255
 GameObject:
   m_ObjectHideFlags: 0
@@ -1312,7 +1312,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &436506256
 Transform:
   m_ObjectHideFlags: 0
@@ -2181,7 +2181,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 1082566534936196353, guid: 7437d088c918ee24e8d7e2dd0d30bca6, type: 3}
-  waveStartTime: 29
+  waveStartTime: 15
   gameTime: 0
   enemySpawnDelay: 1
   EnemiesToSpawn: 1
@@ -2349,7 +2349,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &907509606
 Transform:
   m_ObjectHideFlags: 0
@@ -2751,7 +2751,7 @@ MonoBehaviour:
   waveStartTime: 0
   gameTime: 0
   enemySpawnDelay: 0.25
-  EnemiesToSpawn: 3
+  EnemiesToSpawn: 2
 --- !u!1001 &1069956345
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3132,10 +3132,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 7138143484659028312, guid: 3b997c9018450d74fbb4ddc86e3cd64b, type: 3}
-  waveStartTime: 42
+  waveStartTime: 25
   gameTime: 0
   enemySpawnDelay: 0.5
-  EnemiesToSpawn: 4
+  EnemiesToSpawn: 3
 --- !u!1001 &1199390564
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4344,7 +4344,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 1082566534936196353, guid: cb8d8d8413bbe7a468bbfa683c811e96, type: 3}
-  waveStartTime: 43
+  waveStartTime: 20
   gameTime: 0
   enemySpawnDelay: 0.5
   EnemiesToSpawn: 2

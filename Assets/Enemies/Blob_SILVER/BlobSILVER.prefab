@@ -158,10 +158,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 5
   speed: 2
-  stoppingDistance: 15
+  stoppingDistance: 12
   retreatDistance: 5
   startTimeBtwShots: 2
-  attackRange: 15
+  attackRange: 12
   bulletSpawnPoint: {fileID: 6269295392509145944}
   bullet: {fileID: 3372754212855739619, guid: d64c084ae315d28408fc8dae61e98c69, type: 3}
   agent: {fileID: 5645804587224822481}
