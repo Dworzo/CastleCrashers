@@ -16,6 +16,11 @@ public class spawner : MonoBehaviour
 
     private float timeElapsed = 0f;
 
+    void Start()
+    {
+        EnemyEntity.EnemiesLeft += EnemiesToSpawn;
+    }
+
     private void Update()
     {
         gameTime += Time.deltaTime;

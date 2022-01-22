@@ -230,7 +230,7 @@ GameObject:
   - component: {fileID: 41433952}
   m_Layer: 0
   m_Name: SpawnPoint7
-  m_TagString: Spawner
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -262,11 +262,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 7138143484659028312, guid: 3b997c9018450d74fbb4ddc86e3cd64b, type: 3}
-<<<<<<< Updated upstream
   waveStartTime: 19
-=======
-  waveStartTime: 17
->>>>>>> Stashed changes
   gameTime: 0
   enemySpawnDelay: 1
   EnemiesToSpawn: 2
@@ -282,7 +278,7 @@ GameObject:
   - component: {fileID: 45377703}
   m_Layer: 0
   m_Name: SpawnPoint8
-  m_TagString: Spawner
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -314,11 +310,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 7138143484659028312, guid: 3b997c9018450d74fbb4ddc86e3cd64b, type: 3}
-<<<<<<< Updated upstream
   waveStartTime: 20
-=======
-  waveStartTime: 17
->>>>>>> Stashed changes
   gameTime: 0
   enemySpawnDelay: 1
   EnemiesToSpawn: 2
@@ -491,7 +483,7 @@ GameObject:
   - component: {fileID: 95416147}
   m_Layer: 0
   m_Name: SpawnPoint3
-  m_TagString: Spawner
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -523,7 +515,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 7138143484659028312, guid: 3b997c9018450d74fbb4ddc86e3cd64b, type: 3}
-  waveStartTime: 7
+  waveStartTime: 4
   gameTime: 0
   enemySpawnDelay: 1
   EnemiesToSpawn: 2
@@ -906,7 +898,7 @@ GameObject:
   - component: {fileID: 333034440}
   m_Layer: 0
   m_Name: SpawnPoint8 (5)
-  m_TagString: Spawner
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -938,10 +930,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 7138143484659028312, guid: 3b997c9018450d74fbb4ddc86e3cd64b, type: 3}
-  waveStartTime: 42
+  waveStartTime: 46
   gameTime: 0
   enemySpawnDelay: 0.5
-  EnemiesToSpawn: 1
+  EnemiesToSpawn: 2
 --- !u!1 &361117559
 GameObject:
   m_ObjectHideFlags: 0
@@ -1149,7 +1141,7 @@ GameObject:
   - component: {fileID: 421026153}
   m_Layer: 0
   m_Name: SpawnPoint8 (2)
-  m_TagString: Spawner
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1312,11 +1304,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 4785bc3a5a9a86c48af210e516c2b9ee, type: 2}
     - target: {fileID: 3766507220205235920, guid: 21877112ef909dc46ad4a8e5c8de6b8d, type: 3}
       propertyPath: level
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3766507220205235923, guid: 21877112ef909dc46ad4a8e5c8de6b8d, type: 3}
-      propertyPath: m_IsActive
-      value: 1
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5313513775415795248, guid: 21877112ef909dc46ad4a8e5c8de6b8d, type: 3}
       propertyPath: m_Name
@@ -1495,66 +1483,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bafe1a42aa27544697dab05f161ce1f, type: 3}
-<<<<<<< Updated upstream
---- !u!1001 &660057447
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 7138143484659028312, guid: 3b997c9018450d74fbb4ddc86e3cd64b, type: 3}
-      propertyPath: m_Name
-      value: Enemy
-      objectReference: {fileID: 0}
-    - target: {fileID: 8112915993452409750, guid: 3b997c9018450d74fbb4ddc86e3cd64b, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8112915993452409750, guid: 3b997c9018450d74fbb4ddc86e3cd64b, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -3.9940739
-      objectReference: {fileID: 0}
-    - target: {fileID: 8112915993452409750, guid: 3b997c9018450d74fbb4ddc86e3cd64b, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.9457327
-      objectReference: {fileID: 0}
-    - target: {fileID: 8112915993452409750, guid: 3b997c9018450d74fbb4ddc86e3cd64b, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.57466316
-      objectReference: {fileID: 0}
-    - target: {fileID: 8112915993452409750, guid: 3b997c9018450d74fbb4ddc86e3cd64b, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8112915993452409750, guid: 3b997c9018450d74fbb4ddc86e3cd64b, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8112915993452409750, guid: 3b997c9018450d74fbb4ddc86e3cd64b, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8112915993452409750, guid: 3b997c9018450d74fbb4ddc86e3cd64b, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8112915993452409750, guid: 3b997c9018450d74fbb4ddc86e3cd64b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8112915993452409750, guid: 3b997c9018450d74fbb4ddc86e3cd64b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8112915993452409750, guid: 3b997c9018450d74fbb4ddc86e3cd64b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 3b997c9018450d74fbb4ddc86e3cd64b, type: 3}
-=======
->>>>>>> Stashed changes
 --- !u!1 &669713562
 GameObject:
   m_ObjectHideFlags: 0
@@ -1567,7 +1495,7 @@ GameObject:
   - component: {fileID: 669713564}
   m_Layer: 0
   m_Name: SpawnPoint8 (6)
-  m_TagString: Spawner
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1599,10 +1527,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 7138143484659028312, guid: 3b997c9018450d74fbb4ddc86e3cd64b, type: 3}
-  waveStartTime: 42
+  waveStartTime: 48
   gameTime: 0
   enemySpawnDelay: 0.5
-  EnemiesToSpawn: 1
+  EnemiesToSpawn: 2
 --- !u!1001 &705093417
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1978,7 +1906,7 @@ GameObject:
   - component: {fileID: 944833877}
   m_Layer: 0
   m_Name: SpawnPoint1
-  m_TagString: Spawner
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2026,7 +1954,7 @@ GameObject:
   - component: {fileID: 975989277}
   m_Layer: 0
   m_Name: SpawnPoint_MainFinal
-  m_TagString: Spawner
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2079,7 +2007,7 @@ GameObject:
   - component: {fileID: 996602117}
   m_Layer: 0
   m_Name: SpawnPoint8 (3)
-  m_TagString: Spawner
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2111,17 +2039,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 7138143484659028312, guid: 3b997c9018450d74fbb4ddc86e3cd64b, type: 3}
-<<<<<<< Updated upstream
   waveStartTime: 37
   gameTime: 0
   enemySpawnDelay: 0.5
   EnemiesToSpawn: 2
-=======
-  waveStartTime: 30
-  gameTime: 0
-  enemySpawnDelay: 2
-  EnemiesToSpawn: 3
->>>>>>> Stashed changes
 --- !u!1001 &1015748396
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2349,7 +2270,7 @@ GameObject:
   - component: {fileID: 1155711413}
   m_Layer: 0
   m_Name: SpawnPoint_MainConstant
-  m_TagString: Spawner
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2384,11 +2305,7 @@ MonoBehaviour:
   waveStartTime: 37
   gameTime: 0
   enemySpawnDelay: 3
-<<<<<<< Updated upstream
   EnemiesToSpawn: 8
-=======
-  EnemiesToSpawn: 5
->>>>>>> Stashed changes
 --- !u!4 &1163520327 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1461257764105931291, guid: 0bafe1a42aa27544697dab05f161ce1f, type: 3}
@@ -2406,7 +2323,7 @@ GameObject:
   - component: {fileID: 1174397963}
   m_Layer: 0
   m_Name: SpawnPoint8 (1)
-  m_TagString: Spawner
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2452,7 +2369,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1209851610}
   m_Layer: 0
-  m_Name: Wave3_15s
+  m_Name: Wave3_10s
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2730,7 +2647,7 @@ GameObject:
   - component: {fileID: 1422360453}
   m_Layer: 0
   m_Name: SpawnPoint5
-  m_TagString: Spawner
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2762,11 +2679,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 7138143484659028312, guid: 3b997c9018450d74fbb4ddc86e3cd64b, type: 3}
-<<<<<<< Updated upstream
   waveStartTime: 17
-=======
-  waveStartTime: 15
->>>>>>> Stashed changes
   gameTime: 0
   enemySpawnDelay: 1
   EnemiesToSpawn: 2
@@ -3072,7 +2985,7 @@ GameObject:
   - component: {fileID: 1551782189}
   m_Layer: 0
   m_Name: SpawnPoint6
-  m_TagString: Spawner
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3104,11 +3017,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 7138143484659028312, guid: 3b997c9018450d74fbb4ddc86e3cd64b, type: 3}
-<<<<<<< Updated upstream
   waveStartTime: 17
-=======
-  waveStartTime: 15
->>>>>>> Stashed changes
   gameTime: 0
   enemySpawnDelay: 1
   EnemiesToSpawn: 2
@@ -3232,7 +3141,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1689432491}
   m_Layer: 0
-  m_Name: Wave3_30s
+  m_Name: Wave3_15s
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3475,7 +3384,7 @@ GameObject:
   - component: {fileID: 1855499303}
   m_Layer: 0
   m_Name: SpawnPoint8 (4)
-  m_TagString: Spawner
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3507,15 +3416,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 7138143484659028312, guid: 3b997c9018450d74fbb4ddc86e3cd64b, type: 3}
-  waveStartTime: 32
+  waveStartTime: 40
   gameTime: 0
-<<<<<<< Updated upstream
   enemySpawnDelay: 0.5
   EnemiesToSpawn: 2
-=======
-  enemySpawnDelay: 2
-  EnemiesToSpawn: 3
->>>>>>> Stashed changes
 --- !u!1 &1878294801
 GameObject:
   m_ObjectHideFlags: 0
@@ -3528,7 +3432,7 @@ GameObject:
   - component: {fileID: 1878294803}
   m_Layer: 0
   m_Name: SpawnPoint2
-  m_TagString: Spawner
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3560,11 +3464,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 7138143484659028312, guid: 3b997c9018450d74fbb4ddc86e3cd64b, type: 3}
-<<<<<<< Updated upstream
   waveStartTime: 1
-=======
-  waveStartTime: 4
->>>>>>> Stashed changes
   gameTime: 0
   enemySpawnDelay: 1
   EnemiesToSpawn: 2
@@ -3655,7 +3555,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3289159932191961080, guid: d623288faa4077b45ab9cb0ba3671470, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.43
+      value: -5.57
       objectReference: {fileID: 0}
     - target: {fileID: 3289159932191961080, guid: d623288faa4077b45ab9cb0ba3671470, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3663,7 +3563,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3289159932191961080, guid: d623288faa4077b45ab9cb0ba3671470, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.24
+      value: -6.71
       objectReference: {fileID: 0}
     - target: {fileID: 3289159932191961080, guid: d623288faa4077b45ab9cb0ba3671470, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3869,7 +3769,7 @@ GameObject:
   - component: {fileID: 2065623099}
   m_Layer: 0
   m_Name: SpawnPoint4
-  m_TagString: Spawner
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3901,11 +3801,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 7138143484659028312, guid: 3b997c9018450d74fbb4ddc86e3cd64b, type: 3}
-<<<<<<< Updated upstream
   waveStartTime: 4
-=======
-  waveStartTime: 8
->>>>>>> Stashed changes
   gameTime: 0
   enemySpawnDelay: 1
   EnemiesToSpawn: 2

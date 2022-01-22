@@ -1,9 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine.Audio;
 using UnityEngine;
 
-public class enemyAttack : EnemyEntity
+public class enemyRED : EnemyEntity
 {
     [SerializeField] private int enemyAttackDamage = 10;
     [SerializeField] private float enemyAttackSpeed = 1f;
@@ -17,6 +16,7 @@ public class enemyAttack : EnemyEntity
 
     private void Start()
     {
+        EnemyEntity.EnemiesLeft++;
         currentHealth = maxHealth;
     }
 

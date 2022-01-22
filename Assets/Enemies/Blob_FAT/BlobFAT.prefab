@@ -14,7 +14,8 @@ GameObject:
   - component: {fileID: 5214084791087448760}
   - component: {fileID: 5645804587224822481}
   - component: {fileID: 2268122959656310622}
-  - component: {fileID: 8702956907540420576}
+  - component: {fileID: 3617510583059617264}
+  - component: {fileID: 2996301129906220572}
   m_Layer: 7
   m_Name: BlobFAT
   m_TagString: Enemy
@@ -144,7 +145,103 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   goldAmount: 50
   player: {fileID: 0}
---- !u!114 &8702956907540420576
+--- !u!82 &3617510583059617264
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1082566534936196353}
+  m_Enabled: 0
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: d6ebe7fce2db8ee499312a22c02a8d1c, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &2996301129906220572
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -160,12 +257,12 @@ MonoBehaviour:
   speed: 1
   stoppingDistance: 20
   retreatDistance: 0
-  startTimeBtwShots: 0.3
-  attackRange: 0
+  startTimeBtwShots: 0.35
+  attackRange: 20
   bulletSpawnPoint: {fileID: 6269295392509145944}
   bullet: {fileID: 3372754212855739619, guid: 2d2b0c0dd8cf5b74c941454ad30190cf, type: 3}
   agent: {fileID: 5645804587224822481}
-  bulletDeviation: 18
+  bulletDeviation: 20
   bulletElevation: 0
 --- !u!1 &6269295392509145944
 GameObject:

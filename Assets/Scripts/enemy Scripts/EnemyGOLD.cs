@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class EnemyRangedGOLD : MonoBehaviour
+public class EnemyGOLD : MonoBehaviour
 {
     [SerializeField] public int maxHealth = 5;
     private int currentHealth;

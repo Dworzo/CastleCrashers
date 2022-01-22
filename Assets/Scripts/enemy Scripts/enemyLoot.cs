@@ -13,6 +13,6 @@ public class enemyLoot : MonoBehaviour
 
     public void givePlayerGold()
     {
-        player.GetComponent<playerMoneyManager>().plyaerRecieveGold(goldAmount);
+        playerMoneyManager.playerReceiveGold(goldAmount);
     }
 }

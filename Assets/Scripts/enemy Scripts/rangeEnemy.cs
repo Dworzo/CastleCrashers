@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.AI;
 
-public class rangeEnemy : MonoBehaviour
+public class rangeEnemy : EnemyEntity
 {
-    [SerializeField] public int maxHealth = 5;
+    public int maxHealth = 5;
     private int currentHealth;
     public float speed;
     public float stoppingDistance;
@@ -73,13 +74,11 @@ public class rangeEnemy : MonoBehaviour
             enemyDied();
         }
     }
+
     public void enemyDied()
     {
         gameObject.GetComponent<enemyLoot>().givePlayerGold();
+        EnemyEntity.EnemiesLeft--;
         Destroy(gameObject);
     }
-
-
-
-
 }
