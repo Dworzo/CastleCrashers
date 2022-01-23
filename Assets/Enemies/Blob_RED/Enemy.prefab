@@ -118,7 +118,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: -1372625422
   m_Radius: 0.5
-  m_Speed: 20
+  m_Speed: 18
   m_Acceleration: 10
   avoidancePriority: 50
   m_AngularSpeed: 400
@@ -156,13 +156,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e859059a34279814da4de5486a09a3a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< Updated upstream
-  enemyAttackDamage: 5
-  enemyAttackSpeed: 0.5
-  maxHealth: 4
---- !u!114 &8318208957839504135
-MonoBehaviour:
-=======
   enemyAttackDamage: 6
   enemyAttackSpeed: 0.5
   maxHealth: 5
@@ -170,7 +163,6 @@ MonoBehaviour:
   m_Clip: {fileID: 0}
 --- !u!82 &4929234935972794123
 AudioSource:
->>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
