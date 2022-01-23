@@ -275,7 +275,7 @@ MonoBehaviour:
   player: {fileID: 815805026}
   cameraSpeed: 15
   offset_x: 0
-  offset_y: 12
+  offset_y: 12.5
   offset_z: -3
 --- !u!20 &28323310
 Camera:

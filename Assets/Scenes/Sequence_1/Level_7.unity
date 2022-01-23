@@ -3383,7 +3383,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2805356796255909190, guid: d623288faa4077b45ab9cb0ba3671470, type: 3}
       propertyPath: fireDelay
-      value: 0.3
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 2805356796255909191, guid: d623288faa4077b45ab9cb0ba3671470, type: 3}
       propertyPath: movementSpeed
@@ -3846,7 +3846,7 @@ MonoBehaviour:
   player: {fileID: 378825896}
   cameraSpeed: 15
   offset_x: 0
-  offset_y: 12
+  offset_y: 12.5
   offset_z: -3
 --- !u!20 &2094287842
 Camera:
