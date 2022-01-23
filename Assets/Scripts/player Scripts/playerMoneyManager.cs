@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class playerMoneyManager : MonoBehaviour
 {
-    public int playerGold;
-    
+    public static int playerGold;
 
-    public void plyaerRecieveGold(int amount)
+    public static void playerReceiveGold(int amount)
     {
         playerGold += amount;
     }
 
-    public void playerLostGold(int amount)
+    public static void playerLostGold(int amount)
     {
         playerGold -= amount;
     }

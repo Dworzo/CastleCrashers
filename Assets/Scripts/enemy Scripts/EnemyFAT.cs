@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyRangedFAT : rangeEnemy
+public class EnemyFAT : rangeEnemy
 {
     public float bulletDeviation;
     public float bulletElevation = 0;

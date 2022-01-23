@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyRangedSILVER : rangeEnemy
+public class EnemySILVER : rangeEnemy
 {
     public static int NumberOfBullets = 5;
     public static float Deviation = 12;

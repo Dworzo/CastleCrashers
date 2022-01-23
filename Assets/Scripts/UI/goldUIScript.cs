@@ -16,6 +16,6 @@ public class goldUIScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        goldText.text = "Gold: "+ player.GetComponent<playerMoneyManager>().playerGold.ToString();
+        goldText.text = "Gold: " + playerMoneyManager.playerGold.ToString();
     }
 }
