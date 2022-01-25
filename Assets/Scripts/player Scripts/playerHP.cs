@@ -7,15 +7,18 @@ public class playerHP : MonoBehaviour
 {
     public float maxHealth = 100f;
     public float playerHealth = 0f;
+    public AudioSource clip;
 
     private void Start()
     {
         playerHealth = maxHealth;
+        clip = gameObject.GetComponent<AudioSource>();
     }
 
     public void updatePlayerHealth(int damage)
     {
         playerHealth -= damage;
+        clip.Play();
 
         if (playerHealth > maxHealth)
         {

@@ -5,4 +5,9 @@ using UnityEngine;
 public class EnemyEntity : MonoBehaviour
 {
     static public int EnemiesLeft = 0;
+
+    static void Awake()
+    {
+        EnemiesLeft = 0;
+    }
 }

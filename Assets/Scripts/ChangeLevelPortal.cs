@@ -13,7 +13,7 @@ public class ChangeLevelPortal : MonoBehaviour
     {
         gameTime += Time.deltaTime;
 
-        if (EnemyEntity.EnemiesLeft <= 0)
+        if (EnemyEntity.EnemiesLeft <= 0 || gameTime >= 75f)
         {
             AudioSource m2 = gameObject.GetComponent<AudioSource>();
             m2.enabled = true;
