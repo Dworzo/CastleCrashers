@@ -142,7 +142,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2675d26c83ed68f4288e53341c9b82b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goldAmount: 20
+  goldAmount: 10
   player: {fileID: 0}
 --- !u!114 &7964002687991873217
 MonoBehaviour:
@@ -160,7 +160,6 @@ MonoBehaviour:
   enemyAttackSpeed: 0.5
   maxHealth: 5
   agent: {fileID: -8152444084848908680}
-  m_Clip: {fileID: 0}
 --- !u!82 &4929234935972794123
 AudioSource:
   m_ObjectHideFlags: 0

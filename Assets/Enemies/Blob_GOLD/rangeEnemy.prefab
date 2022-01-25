@@ -145,7 +145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2675d26c83ed68f4288e53341c9b82b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goldAmount: 20
+  goldAmount: 25
   player: {fileID: 0}
 --- !u!114 &5527752169711537425
 MonoBehaviour:
@@ -168,7 +168,6 @@ MonoBehaviour:
   bulletSpawnPoint: {fileID: 1082566534936196353}
   bullet: {fileID: 3372754212855739619, guid: 049105e2b09dcfb4ba44b27987a00069, type: 3}
   agent: {fileID: 5645804587224822481}
-  m_Clip: {fileID: 0}
 --- !u!114 &1738243670702432245
 MonoBehaviour:
   m_ObjectHideFlags: 0
